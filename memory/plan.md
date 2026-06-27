@@ -6,7 +6,10 @@ only — build full-stack features end-to-end, not horizontal layers
 
 ## Current Phase
 
-<!-- e.g. "Phase 2: Auth flow" -->
+問題点を重要度別に解決 → GitHub OAuth で肉付け。スライス: S1完了 / S2着手。
+詳細プランは `~/.claude/plans/tranquil-singing-abelson.md`。
+スライス: S1 ポート＋DI / S2 例外階層 / S3 ハッシュ / S4 共通コア＋メール順序 /
+S5 Validator / S6 OAuth / S7 ドキュメント。
 
 ## Vertical Slices
 
