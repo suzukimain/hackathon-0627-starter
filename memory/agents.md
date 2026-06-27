@@ -25,16 +25,12 @@ List MCP servers or external tools the agent can invoke. Example:
 
 ## Tech Stack
 
-<!--
-Runtime, language, framework, version. Example:
-
-- Runtime: Node 20+
-- Language: TypeScript 5.8 (strict, erasableSyntaxOnly)
-- Framework: Next.js 14 (app router)
-- Test: Vitest
-- Lint: eslint + ruff
-- Type-check: tsc --noEmit
--->
+- Language: Java（package `com.youtrust.hackathon`）
+- Layout: Maven 標準（`src/main/java` / `src/test/java`）。ただし **ビルド基盤は未導入**。
+- Test: JUnit5（**作成のみ・ローカル実行はしない**。JDK/Maven 未インストール）
+- Build/Type-check/Lint: 未設定（環境構築は本タスク対象外）
+- 検証方針: コードレビュー中心（`throws Exception` 残存なし / `new Xxx()` 直接生成なし /
+  両登録経路が同一後続処理を通る / 生パスワード非永続 を目視確認）
 
 ## Agent Runtime Policy
 
